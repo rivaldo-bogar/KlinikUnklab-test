@@ -70,70 +70,69 @@ body {
    
    
 }
-@media screen and (max-width: 430px) {
-    .decorbuatakun {
+ @media screen and (max-width: 430px) {
+        .decorbuatakun {
         position: absolute;
-      left: -8%;
-        top: 10%;
-    }
-    .judullogin {
-        position: absolute;
-        left: 38%;
-        top: 8%;
-        font-size: 6vh;
-        color: white;
-    }
-    .inputbox {
-        position: absolute;
-       
-        width: 50%;
-        top: 38%;
-        left: 25%;
-    }
-    input {
-        width: 100%;
-        height: 6.5vh;
-        background-color: #B8B8B8;
-        border: none;
-        border-radius: 10px;
-    }
-    label {
-        font-size: 2vh;
-    }
-    .boxbtndaftar {
-        position: absolute;
-        left: 0;
-        width: 25%; /* Menggunakan persentase untuk responsif */
-        height: auto; /* Menggunakan ketinggian yang disesuaikan dengan konten */
-        padding: 10px; /* Tambahkan padding agar tombol tidak terlalu dekat dengan tepi */
-    }
-    
-    .boxbtnlogin {
-        position: absolute;
-        right: 0;
-        width: 25%; /* Menggunakan persentase untuk responsif */
-        height: auto; /* Menggunakan ketinggian yang disesuaikan dengan konten */
-        padding: 10px; /* Tambahkan padding agar tombol tidak terlalu dekat dengan tepi */
-    }
-    
-    .btndaftar, .btnlogin {
-        width: 100%; /* Menyesuaikan lebar dengan parent */
-        height: 60px;
-        background-color: transparent; /* Hapus background-color agar background-image terlihat */
-        border: none;
-        background-size: cover;
-        background-repeat: no-repeat;
-        cursor: pointer;
-    }
-    
-    .btndaftar {
-        background-image: url(/img/btndaftar.png);
-    }
-    
-    .btnlogin {
+          left: 0%;
+            top: 10%;
+            width: 80%;
+            height: 8%;
+        }
+        .judullogin {
+            position: absolute;
+            margin-left: 32%;
+            top: 6%;
+            font-size: 6vh;
+            color: white;
+        }
+        .inputbox {
+            position: absolute;
+           
+            width: 65%;
+            top: 38%;
+            left: 19%;
+        }
+        input {
+            width: 100%;
+            height: 6.5vh;
+            background-color: #B8B8B8;
+            border: none;
+            border-radius: 10px;
+        }
+        label {
+            font-size: 2vh;
+        }
       
-        background-image: url(/img/btnloginfix.png);
+        
+        .btnlogin {
+            width: 100px; /* Atur lebar tombol sesuai kebutuhan */
+            height: 30px; /* Atur tinggi tombol sesuai kebutuhan */
+            background-image: url(/img/btnloginfix.png);
+            background-color: transparent; /* Hapus background-color agar background-image terlihat */
+            top: 86%;
+            left: 60%;
+            border: none;
+            position: absolute;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        .btndaftar {
+            width: 100px; /* Atur lebar tombol sesuai kebutuhan */
+            height: 30px; /* Atur tinggi tombol sesuai kebutuhan */
+            background-image: url(/img/btnloginfix.png);
+            background-color: transparent; /* Hapus background-color agar background-image terlihat */
+            border: none;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        
+        .btndaftar {
+            background-image: url(/img/btndaftar.png);
+        }
+        
+        
+        
+       
     }
-    
-   
-}
