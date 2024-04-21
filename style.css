@@ -63,7 +63,7 @@ img.medicalmid {
 
 }
 /* Untuk perangkat Android */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 430px) {
   
     img.decorkanan {
         position: fixed;
@@ -93,9 +93,10 @@ img.medicalmid {
         background-image: url('img/btndokter.png');
         border: none;
         cursor: pointer;
-        width: 200px; /* Atur lebar sesuai kebutuhan */
+        width: 30%; /* Atur lebar sesuai kebutuhan */
         height: 50px; /* Atur tinggi sesuai kebutuhan */
         background-color: transparent; /* Membuat background button transparan */
+        border-radius: 20px;
         background-size: cover; /* Memastikan gambar menutupi seluruh area button */
         background-position: center; /* Pusatkan gambar */
     }  
@@ -107,7 +108,8 @@ img.medicalmid {
         background-image: url('img/btnpasien.png');
         border: none;
         cursor: pointer;
-        width: 200px; /* Atur lebar sesuai kebutuhan */
+        border-radius: 20px;
+        width: 30%; /* Atur lebar sesuai kebutuhan */
         height: 50px; /* Atur tinggi sesuai kebutuhan */
         background-color: transparent; /* Membuat background button transparan */
         background-size: cover; /* Memastikan gambar menutupi seluruh area button */
@@ -115,11 +117,11 @@ img.medicalmid {
     }  
     .klinikunklab {
         position: absolute;
-        top: calc(50% + 60px); /* Posisi di bawah .medicalmid dengan offset tertentu */
+        top: calc(40% + 60px); /* Posisi di bawah .medicalmid dengan offset tertentu */
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: red;
-      width: 50%;
+        
+      width: 60%;
     }
     .unkicon {
         right: 0%;
