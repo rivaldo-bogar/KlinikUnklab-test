@@ -1,0 +1,73 @@
+body {
+  
+    margin: 0%;
+}
+@media screen and (min-width: 1024px) {
+   .decortop {
+    width: 20%
+   
+   
+   } 
+   .textintrokonsul {
+
+    text-align: center;
+    font-size: 9vh;
+    color: #5D7F99;
+   }
+   .boxtext{
+   
+    position: absolute;
+    left: 30%;
+    top: 10%;
+   
+   }
+
+   input {
+    background-color: #B8B8B8;
+    border: none;
+    border-radius: 10px;
+    width: 100vh;
+    height: 45px;
+    margin-bottom: 20px;
+   }
+   label {
+    font-size: 15px;
+   }
+   .inputbox {
+ 
+    width: 38%;
+    left: 20%;
+    position: absolute;
+    
+   }
+   #gender {
+    margin-bottom: 20px;
+   }
+   .btnkembali {
+    background-image: url(/img/btnkembali.png);
+    width: 200px;
+    height: 67px;
+    position: absolute;
+    top: 75%;
+    border: none;
+    background-color: white;
+    left: 58%;
+    
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .btnok {
+    background-image: url(/img/btnok.png);
+    width: 200px;
+    height: 67px;
+    position: absolute;
+    top: 75%;
+    border: none;
+    background-color: white;
+    left: 20%;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+}

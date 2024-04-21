@@ -1,0 +1,148 @@
+body {
+    margin: 0%;
+    padding:0%;
+}
+@media screen and (min-width: 1024px) {
+    .prof {
+        top: 40px;
+        left: 2%;
+        width: 7%;
+        position: absolute;
+        z-index: 1;
+        
+    }
+    .decor-top{
+        position: absolute;
+    }
+    .namewel{
+        font-size: 7vh;
+        top: 40px;
+        color: white;
+        position: absolute;
+        padding-left: 180px;
+    }
+    .menu-box{
+
+    position: relative;
+        top: 250px;
+        width: 100%;
+        height: 400px;
+        
+    }
+    .konsuldoc{
+        background-image: url(/img/icondoctor.png);
+        width: 120px;
+        height: 120px;
+        background-size: cover;
+        border-radius:50%;
+        cursor: pointer;
+        position: relative;
+        border: none;
+    }
+   .konsul {
+    position: absolute;
+ 
+    width: 10%;
+    left: 30%;
+    height: 160px;
+   }
+   .textkonsul {
+    font-size: 20px;
+    display: block;
+    color: #5D7F99;
+    
+   }
+   .perubjadwal{
+    background-image: url(/img/calendericon.png);
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    background-size: cover;
+    border-radius:50%;
+    
+    position: relative;
+    border: none;
+}
+.perujadwal {
+position: absolute;
+
+width: 10%;
+left: 50%;
+height: 160px;
+}
+
+.riwmedis{
+    background-image: url(/img/bookmedis.png);
+    width: 120px;
+    height: 120px;
+    
+    background-size: cover;
+    border-radius:50%;
+    cursor: pointer;
+    position: relative;
+    border: none;
+}
+.riwayatmedis {
+position: absolute;
+
+width: 10%;
+left: 70%;
+height: 160px;
+}
+
+.formukesehatan{
+    background-image: url(/img/iconmedisbook.png);
+    width: 120px;
+    height: 120px;
+  cursor: pointer;
+    background-size: cover;
+    border-radius:50%;
+    
+    position: relative;
+    border: none;
+}
+.formulirkesehatan {
+position: absolute;
+
+width: 10%;
+top: 50%;
+left: 30%;
+height: 160px;
+}
+.jaddokter{
+    background-image: url(/img/icongrupdoctor.png);
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    background-size: cover;
+    border-radius:50%;
+    
+    position: relative;
+    border: none;
+}
+.jadwaldokter {
+position: absolute;
+cursor: pointer;
+width: 10%;
+top: 50%;
+left: 50%;
+height: 160px;
+}
+.btn-logout {
+ 
+    position: absolute;
+    top: 85%;
+    width: 155px;
+    height: auto;
+    left: 85%;
+}
+.btnlogout {
+    background-image: url(/img/Group\ 7.png);
+    width: 100%;
+    border: none;
+    background-color: white;
+    background-size: cover;
+    height: 50px;
+    cursor: pointer;
+}
+}

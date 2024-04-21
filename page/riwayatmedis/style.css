@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .decortop {
+    width: 20%;
+  }
+  
+  .textintrokonsul {
+    text-align: center;
+    font-size: 9vh;
+    color: #5D7F99;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .inputbox {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  #gender {
+    margin-bottom: 20px;
+  }
+  
+  .btnkembali,
+  .btnok {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 67px;
+    position: absolute;
+    top: 75%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btnkembali {
+    background-image: url(/img/btnkembali.png);
+    left: 61%;
+    width: 150px;
+    height:50px;
+   
+  }
+  
+ 
+  
+  .profpasien {
+    
+    width: 7%;
+  }
+  
+  .namepasien {
+    background-color: #B8B8B8;
+    width: 90%;
+    max-width: 600px;
+    height: 40px;
+    position: absolute;
+    top:0%;
+    left: 54%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding-bottom: 15px;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 3vh;
+    line-height: 100%;
+    color: white;
+    
+  }
+  
+  .boxriwayatmedis {
+    
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    position: relative;
+    margin: 20px auto;
+  }
+  .profdoc {
+    
+    width: 9%;
+    top: 200%;
+    left: -1%;
+    position: absolute;
+  }
+  
+  .namedoctor {
+    background-color: #B8B8B8;
+    width: 90%;
+    max-width: 600px;
+    height: 40px;
+    position: absolute;
+    top:200%;
+    left: 54%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding-bottom: 15px;
+  }
+  .riwayatkes {
+    background-color: #B8B8B8;
+    width: 300%;
+    max-width: 600px;
+    height: 40px;
+    position: absolute;
+    top:400%;
+    left: 54%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding-bottom: 15px;
+  }
+  .textriw{
+    position: absolute;
+    top: 330%;
+    left: 5%;
+    font-size: 15px;
+    
+  }
+  
+  

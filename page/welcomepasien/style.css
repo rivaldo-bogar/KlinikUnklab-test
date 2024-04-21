@@ -1,0 +1,76 @@
+body{
+  margin: 0%;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    position: relative;
+    height: 100vh; /* Sesuaikan tinggi container dengan viewport */
+    overflow: hidden; /* Mencegah scroll */
+}
+
+.icon-medical {
+  position: absolute;
+  left: -7%; /* Posisikan di sebelah kiri */
+  top: 50%; /* Posisikan di tengah secara vertikal */
+  transform: translateY(-50%); /* Ajust posisi agar tepat di tengah */
+  z-index: 2; /* Pastikan ikon medis berada di depan gambar triaggle */
+}
+
+.klinikunklabtext{
+  position: absolute;
+  left: 4%; /* Posisikan di sebelah kiri */
+  top: 67%; /* Sesuaikan posisi vertikal sesuai kebutuhan */
+  transform: translateY(-50%); /* Ajust posisi agar tepat di tengah */
+  z-index: 2; /* Pastikan teks h2 berada di depan gambar triaggle */
+ color: white;
+ font-size:45px;
+}
+
+.triaggle {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh; /* Set tinggi gambar agar sesuai dengan tinggi viewport */
+    width: auto; /* Menjaga rasio aspek gambar */
+    z-index: 1; /* Pastikan triaggle berada di belakang ikon medis */
+}
+.welcometext {
+  text-align: center; /* Pusatkan teks */
+  font-size: 55px;
+  margin-left: 34%;
+  color: #5D7F99;
+ left: 50%; /* Posisikan ke kanan sekitar 10% */
+  z-index: 2; /* Pastikan teks h2 berada di depan gambar triaggle */
+}
+.buatakun {
+background-image: url('/img/btnbuatakun.png'); /* Ganti dengan nama file gambar Anda */
+ width: 300px;
+ background-color: white;
+ height: 10%;
+ cursor: pointer;
+ background-size: contain;
+ background-repeat: no-repeat;
+ border: none;
+ position: relative;
+ left: 57%;
+top: 40%; /* Sesuaikan dengan jarak yang diinginkan */
+  
+}
+.login {
+background-image: url('/img/btnlogin\ \(1\).png'); /* Ganti dengan nama file gambar Anda */
+ width: 300px;
+ background-color: white;
+ height: 10%;
+ left: 37.5%;
+ cursor: pointer;
+ background-size: contain;
+ background-repeat: no-repeat;
+ border: none;
+ position: relative;
+top: 53%; /* Sesuaikan dengan jarak yang diinginkan */
+  
+}
+}

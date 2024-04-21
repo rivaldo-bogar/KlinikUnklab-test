@@ -1,0 +1,72 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+@media screen and (min-width: 1024px) {
+    .decorbuatakun {
+        position: absolute;
+      left: -8%;
+        top: 10%;
+    }
+    .judullogin {
+        position: absolute;
+        left: 38%;
+        top: 8%;
+        font-size: 6vh;
+        color: white;
+    }
+    .inputbox {
+        position: absolute;
+       
+        width: 50%;
+        top: 38%;
+        left: 25%;
+    }
+    input {
+        width: 100%;
+        height: 6.5vh;
+        background-color: #B8B8B8;
+        border: none;
+        border-radius: 10px;
+    }
+    label {
+        font-size: 2vh;
+    }
+    .boxbtndaftar {
+        position: absolute;
+        left: 0;
+        width: 25%; /* Menggunakan persentase untuk responsif */
+        height: auto; /* Menggunakan ketinggian yang disesuaikan dengan konten */
+        padding: 10px; /* Tambahkan padding agar tombol tidak terlalu dekat dengan tepi */
+    }
+    
+    .boxbtnlogin {
+        position: absolute;
+        right: 0;
+        width: 25%; /* Menggunakan persentase untuk responsif */
+        height: auto; /* Menggunakan ketinggian yang disesuaikan dengan konten */
+        padding: 10px; /* Tambahkan padding agar tombol tidak terlalu dekat dengan tepi */
+    }
+    
+    .btndaftar, .btnlogin {
+        width: 100%; /* Menyesuaikan lebar dengan parent */
+        height: 60px;
+        background-color: transparent; /* Hapus background-color agar background-image terlihat */
+        border: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    
+    .btndaftar {
+        background-image: url(/img/btndaftar.png);
+    }
+    
+    .btnlogin {
+      
+        background-image: url(/img/btnloginfix.png);
+    }
+    
+   
+}
+
