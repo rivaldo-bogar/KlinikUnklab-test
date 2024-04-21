@@ -69,7 +69,7 @@ img.medicalmid {
         position: fixed;
         width: 25%;
         top: 0;
-        right: 17%;
+        right: 0%;
         z-index: 1; /* Pastikan z-index lebih rendah dari .unkicon */
     }
     img.decorkiri {
@@ -122,8 +122,9 @@ img.medicalmid {
       width: 50%;
     }
     .unkicon {
+        right: 0%;
         position: fixed;
-        left: 63%;
+       
         z-index: 2; /* Pastikan z-index lebih tinggi dari .decorkanan */
         width: 20%;
         top: 1%;
