@@ -62,3 +62,72 @@ img.medicalmid {
 }
 
 }
+/* Untuk perangkat Android */
+@media screen and (max-width: 760px) {
+  
+    img.decorkanan {
+        position: fixed;
+        width: 25%;
+        top: 0;
+        right: 17%;
+        z-index: 1; /* Pastikan z-index lebih rendah dari .unkicon */
+    }
+    img.decorkiri {
+        width: 25%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    img.medicalmid {
+        width: 40%;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .btndokter {
+        position: absolute;
+        top: calc(65% + 60px); /* 40% adalah posisi dari .medicalmid ditambah offset */
+        left: 30%;
+        transform: translate(-50%, -50%);
+        background-image: url('img/btndokter.png');
+        border: none;
+        cursor: pointer;
+        width: 200px; /* Atur lebar sesuai kebutuhan */
+        height: 50px; /* Atur tinggi sesuai kebutuhan */
+        background-color: transparent; /* Membuat background button transparan */
+        background-size: cover; /* Memastikan gambar menutupi seluruh area button */
+        background-position: center; /* Pusatkan gambar */
+    }  
+    .btnpasien {
+        position: absolute;
+        top: calc(65% + 60px); /* 40% adalah posisi dari .medicalmid ditambah offset */
+        left: 70%;
+        transform: translate(-50%, -50%);
+        background-image: url('img/btnpasien.png');
+        border: none;
+        cursor: pointer;
+        width: 200px; /* Atur lebar sesuai kebutuhan */
+        height: 50px; /* Atur tinggi sesuai kebutuhan */
+        background-color: transparent; /* Membuat background button transparan */
+        background-size: cover; /* Memastikan gambar menutupi seluruh area button */
+        background-position: center; /* Pusatkan gambar */
+    }  
+    .klinikunklab {
+        position: absolute;
+        top: calc(50% + 60px); /* Posisi di bawah .medicalmid dengan offset tertentu */
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: red;
+      width: 50%;
+    }
+    .unkicon {
+        position: fixed;
+        left: 63%;
+        z-index: 2; /* Pastikan z-index lebih tinggi dari .decorkanan */
+        width: 20%;
+        top: 1%;
+        right: 0;
+    }
+    
+}
