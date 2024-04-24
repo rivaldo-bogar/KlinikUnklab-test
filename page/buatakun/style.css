@@ -53,4 +53,56 @@ body {
     }
    
 }
+@media screen and (max-width: 430px) {
+    .decorbuatakun {
+        position: absolute;
+        width: 80%;
+        height: 10%;
+      left: -8%;
+        top: 10%;
+    }
+    .judulbuatakun {
+        position: absolute;
+        left: 20%;
+        top: 8%;
+        font-size: 5vh;
+        color: white;
+    }
+    .inputbox {
+        position: absolute;
+       
+        width: 50%;
+        top: 30%;
+        left: 20%;
+    }
+    input {
+        width: 120%;
+        height: 5vh;
+        background-color: #B8B8B8;
+        border: none;
+        border-radius: 10px;
+    }
+    label {
+        font-size: 2vh;
+    }
+    .boxdaftar{
+       
+        width: 21%;
+        height: 20%;
+        
+        left: 70%;
+        position: absolute;
+    }
+    .btndaftar {
+        position: relative;
+        width: 240%;
+        height: 35px;
+        background-image: url(/img/btndaftar.png);
+        background-color: white;
+        border: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+}
 
