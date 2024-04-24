@@ -40,6 +40,6 @@
       .catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
-        alert("login failed");
+        alert("Register Failed");
       });
   });
