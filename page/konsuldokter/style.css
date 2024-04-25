@@ -58,3 +58,60 @@ body {
     background-size: cover;
    }
 }
+
+@media screen and (max-width: 430px) {
+    .decortop {
+        width: 50%
+       
+       
+       } 
+       .textintrokonsul {
+       margin-left: 20%;
+        text-align: center;
+        font-size: 4vh;
+        color: #5D7F99;
+       }
+       .boxtext{
+       
+        position: absolute;
+        left: 30%;
+        top: 10%;
+       
+       }
+    
+       input {
+        background-color: #B8B8B8;
+        border: none;
+        border-radius: 10px;
+        width: 100vh;
+        height: 45px;
+        margin-bottom: 20px;
+       }
+       label {
+        font-size: 15px;
+       }
+       .inputbox {
+     
+        width: 38%;
+        left: 20%;
+        position: absolute;
+        
+       }
+       .dateme {
+        width: 30%;
+       }
+       .daftarkonsul {
+        background-image: url(/img/btndaftarkonsultasi.png);
+        width: 400px;
+        height: 73px;
+        position: absolute;
+        top: 75%;
+        border: none;
+        background-color: white;
+        left: 35%;
+        
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+}
