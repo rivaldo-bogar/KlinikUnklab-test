@@ -43,16 +43,29 @@ body {
    .dateme {
     width: 30%;
    }
-   .daftarkonsul {
-    background-image: url(/img/btndaftarkonsultasi.png);
-    width: 400px;
-    height: 73px;
+   .btnkembali {
+    background-image: url(/img/btnkembali.png);
+    width: 200px;
+    height: 67px;
     position: absolute;
     top: 75%;
     border: none;
     background-color: white;
-    left: 35%;
+    left: 58%;
     
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .btnok {
+    background-image: url(/img/btnok.png);
+    width: 200px;
+    height: 67px;
+    position: absolute;
+    top: 75%;
+    border: none;
+    background-color: white;
+    left: 20%;
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,16 +114,29 @@ body {
        .dateme {
         width: 60%;
        }
-       .daftarkonsul {
-        background-image: url(/img/btndaftarkonsultasi.png);
-        width: 250px;
-        height: 45px;
+       .btnkembali {
+        background-image: url(/img/btnkembali.png);
+        width: 130px;
+        height: 42px;
         position: absolute;
-        top: 68%;
+        top: 75%;
         border: none;
         background-color: white;
-        left: 23%;
+        left: 57%;
         
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+       .btnok {
+        background-image: url(/img/btnok.png);
+        width: 130px;
+        height: 42px;
+        position: absolute;
+        top: 75%;
+        border: none;
+        background-color: white;
+        left: 15%;
         cursor: pointer;
         background-repeat: no-repeat;
         background-size: cover;
