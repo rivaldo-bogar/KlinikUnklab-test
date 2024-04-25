@@ -160,11 +160,12 @@ body {
   
   .btnkembali {
     background-image: url(/img/btnkembali.png);
-   
-    width: 200px;
+   background-size: cover;
+    width: 110px;
     background-repeat: no-repeat;
-    height:40px;
+    height:37px;
     border: none;
+    left: 60%;
     position: absolute;
     top: 60%;
    
@@ -230,20 +231,20 @@ body {
   }
   .riwayatkes {
     background-color: #B8B8B8;
-    width: 130%;
+    width: 110%;
     max-width: 600px;
-    height: 40px;
+    height: 30px;
     position: absolute;
-    top:800%;
-    left: 54%;
+    top:300%;
+    left: 50%;
     transform: translateX(-50%);
     border-radius: 10px;
     padding-bottom: 15px;
   }
   .textriw{
     position: absolute;
-    top: 330%;
-    left: 5%;
+    top: 260%;
+    left: 3%;
     font-size: 15px;
     
   }
