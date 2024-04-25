@@ -34,7 +34,7 @@
         // Signed in 
         const user = userCredential.user;
         alert("login success");
-        window.location.href = "../menuhome/index.html";
+        window.location.href = "../menuhome/";
         // ...
       })
       .catch((error) => {
