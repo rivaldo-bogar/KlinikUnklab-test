@@ -61,21 +61,22 @@ body {
 
 @media screen and (max-width: 430px) {
     .decortop {
-        width: 50%
+        width: 35%
        
        
        } 
        .textintrokonsul {
-       margin-left: 20%;
+       
         text-align: center;
-        font-size: 4vh;
+        font-size: 3.5vh;
         color: #5D7F99;
        }
        .boxtext{
-       
+       width: 80%;
         position: absolute;
-        left: 30%;
-        top: 10%;
+        left: 10%;
+        top: 20%;
+       
        
        }
     
@@ -83,7 +84,7 @@ body {
         background-color: #B8B8B8;
         border: none;
         border-radius: 10px;
-        width: 100vh;
+        width: 30vh;
         height: 45px;
         margin-bottom: 20px;
        }
@@ -91,24 +92,24 @@ body {
         font-size: 15px;
        }
        .inputbox {
-     
+     top: 32%;
         width: 38%;
         left: 20%;
         position: absolute;
         
        }
        .dateme {
-        width: 30%;
+        width: 60%;
        }
        .daftarkonsul {
         background-image: url(/img/btndaftarkonsultasi.png);
-        width: 400px;
-        height: 73px;
+        width: 250px;
+        height: 45px;
         position: absolute;
-        top: 75%;
+        top: 68%;
         border: none;
         background-color: white;
-        left: 35%;
+        left: 23%;
         
         cursor: pointer;
         background-repeat: no-repeat;
