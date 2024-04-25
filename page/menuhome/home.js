@@ -18,3 +18,8 @@ document.getElementById('riwayatmedis').onclick = function() {
     window.location.href = "../riwayatmedis";
     
 }
+document.getElementById('formulirkesehatanku').onclick = function() {
+    // Arahkan pengguna ke halaman berikutnya
+    window.location.href = "../formulirkesehatan/";
+    
+}
