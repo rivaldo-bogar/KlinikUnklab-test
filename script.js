@@ -5,6 +5,6 @@ document.getElementById('btnlogin').onclick = function() {
 }
 document.getElementById('btndaftar').onclick = function() {
     // Arahkan pengguna ke halaman berikutnya
-    window.location.href = "page/login/";
+    window.location.href = "/pagedokter/login/";
     console.log("codenya jalan boss");
 }
