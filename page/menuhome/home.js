@@ -23,3 +23,8 @@ document.getElementById('formulirkesehatanku').onclick = function() {
     window.location.href = "../formulirkesehatan/";
     
 }
+document.getElementById('jadwaldokterku').onclick = function() {
+    // Arahkan pengguna ke halaman berikutnya
+    window.location.href = "../jadwaldokter/";
+    
+}
