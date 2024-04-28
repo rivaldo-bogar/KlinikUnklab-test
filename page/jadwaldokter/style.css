@@ -3,5 +3,41 @@ body {
     padding: 0%;
 }
 @media screen and (min-width: 1024px) {
+   .jad1 {
+    top: 45%;
+    background-color: #B8B8B8;
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    height: 60px;
+   } 
+  .doktername {
+    padding-left: 20%;
+    background-color: blue;
+    width: 35%;
+    position: absolute;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2%;
+    border-radius: 15px;
+    height: 40px;
+  }
+   .jadbox{
+
+    border-radius: 20px;
+   }
+   .textintrojad{
+    text-align: center;
+    font-size: 9vh;
+    position: absolute;
+    left: 40%;
+    color: #5D7F99;
+   }
+   .icondoc{
+    width: 4.5%;
+    background-color: red;
+   
+   
     
+   }
 }

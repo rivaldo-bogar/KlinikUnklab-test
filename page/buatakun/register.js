@@ -33,7 +33,7 @@
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-        window.location.href = "../login/index.html";
+        window.location.href = "../login/";
         alert("Berhasil Terdaftarkan")
         // ...
       })
