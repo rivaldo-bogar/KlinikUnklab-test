@@ -1,86 +1,20 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Style untuk body */
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  /* Style untuk header */
-  .decortop {
-    display: block;
-    margin: 0 auto;
-    width: 200px; /* Sesuaikan lebar dengan gambar */
-  }
-  
-  .boxtext {
-    text-align: center;
-  }
-  
-  .textintrokonsul {
-    color: #333;
-  }
-  
-  /* Style untuk kontainer data */
-  #dataContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  /* Style untuk box perubahan jadwal */
-  .boxperubjad {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 300px;
-    width: calc(100% - 40px);
-  }
-  
-  .docicon, .calicon {
-    width: 30px; /* Sesuaikan dengan ukuran ikon */
-    height: 30px; /* Sesuaikan dengan ukuran ikon */
-  }
-  
-  .name {
-    margin-top: 10px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .datatnggl {
-    margin-top: 5px;
-    color: #666;
-  }
-  
-  .editbtn {
-    margin-top: 15px;
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .editbtn:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Media query untuk responsif */
-  @media only screen and (min-width: 768px) {
-    #dataContainer {
-      justify-content: flex-start;
-    }
-  }
-  
-  
+/* style.css */
+#dataContainer {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  padding: 20px;
+}
+
+.editButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.editButton:hover {
+  background-color: #0056b3;
+}

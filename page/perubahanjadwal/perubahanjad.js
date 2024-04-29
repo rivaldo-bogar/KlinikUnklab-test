@@ -45,15 +45,38 @@ onValue(konsulRef, (snapshot) => {
   // Mengonversi objek data menjadi array
   const dataArray = Object.values(data);
 
-  // Menampilkan data di dalam container
   dataArray.forEach((item) => {
     const listItem = document.createElement('div');
     listItem.innerHTML = `
-      <p>Username: ${item.username}</p>
-      <p>Tanggal: ${item.tanggal}</p>
-      <p>Nama Dokter: ${item.NamaDokter}</p>
+        <p>Username: ${item.username}</p>
+        <p>Tanggal: <span class="tanggal" data-id="${item.id}">${item.tanggal}</span></p>
+        <p>Nama Dokter: ${item.NamaDokter}</p>
+        <button class="editButton" data-id="${item.id}">Edit</button>
     `;
     dataContainer.appendChild(listItem);
-  });
 });
+
+// Tambahkan event listener untuk menangani klik tombol edit
+dataContainer.addEventListener('click', async (event) => {
+    if (event.target.classList.contains('editButton')) {
+        const id = event.target.dataset.id;
+        const tanggalElement = event.target.parentNode.querySelector('.tanggal');
+        const newTanggal = prompt("Masukkan tanggal baru:", tanggalElement.textContent);
+        if (newTanggal !== null) {
+            try {
+                // Mengubah data tanggal di Firebase
+                await set(ref(db, `daftarkonsul/${id}/tanggal`), newTanggal);
+                tanggalElement.textContent = newTanggal; // Update tampilan dengan tanggal baru
+                console.log('Tanggal berhasil diubah di Firebase');
+            } catch (error) {
+                console.error('Terjadi kesalahan saat mengubah tanggal:', error);
+            }
+        }
+    }
+});
+
+
+
+});
+
 
