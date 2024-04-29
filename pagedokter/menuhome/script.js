@@ -1,4 +1,4 @@
-document.getElementById('konsuldokter').onclick = function() {
+document.getElementById('konsuldocter').onclick = function() {
     // Arahkan pengguna ke halaman berikutnya
     window.location.href = "../jadwalpasien/";
     console.log("codenya jalan boss");
