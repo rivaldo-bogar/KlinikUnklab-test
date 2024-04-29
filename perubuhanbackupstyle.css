@@ -1,0 +1,139 @@
+body {
+  
+    margin: 0%;
+}
+@media screen and (min-width: 1024px) {
+   .decortop {
+    width: 17%
+   
+   
+   } 
+   .textintrokonsul {
+    top: 10%;
+    left: 35%;
+    position: absolute;
+    text-align: center;
+    font-size: 9vh;
+    color: #5D7F99;
+   }
+   .boxperubjad {
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    border-radius: 15px;
+    background-color: #B8B8B8;
+   }
+   .name{
+    margin: 0%;
+    display: inline-block;
+    top: 33%;
+    width: 25%;
+    margin-left: 3%;
+   }
+   h3{
+   
+   }
+   .datatnggl {
+   margin: 0%;
+  display: inline-block;
+  margin-left: -27%;
+    position: relative;
+
+    top: 43%;
+    left: 1%;
+    width: 25%;
+    height: 40px;
+    
+   }
+   .docicon{
+    width: 4.2%;
+    margin-top: 2%;
+    margin-left: 3.5%;
+   }
+   .calicon{
+    width: 7%;
+    margin-left: 2%;
+    display: block;
+   }
+   .editbtn{
+    top: 10%;
+    background-color: #5D7F99;
+    border: none;
+    top: -64%;
+    position: relative;
+    margin-left: 80%;
+    width: 15%;
+    border-radius: 15px;
+    height: 30px;
+   }
+   
+}
+
+@media screen and (max-width: 430px) {
+    .decortop {
+        width: 29%
+       } 
+       .textintrokonsul {
+        top: 12%;
+        left: 25%;
+        position: absolute;
+        text-align: center;
+        font-size: 4vh;
+        color: #5D7F99;
+       }
+       .boxperubjad {
+        width: 75%;
+        margin-top: 10%;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px;
+        border-radius: 15px;
+        background-color: #B8B8B8;
+       }
+       .name{
+        margin: 0%;
+        display: inline-block;
+        top: 33%;
+        width: 25%;
+        margin-left: 3%;
+       }
+       h3{
+       
+       }
+       .datatnggl {
+       margin: 0%;
+      display: inline-block;
+      margin-left: -27%;
+        position: relative;
+    
+        top: 43%;
+        left: 1%;
+        width: 25%;
+        height: 40px;
+        
+       }
+       .docicon{
+        width: 10.2%;
+        margin-top: 2%;
+        margin-left: 3.5%;
+       }
+       .calicon{
+        width: 20%;
+        margin-top: -5%;
+        display: block;
+       }
+       .editbtn{
+        top: 10%;
+        background-color: #5D7F99;
+        border: none;
+        top: -64%;
+        position: relative;
+        margin-left: 80%;
+        width: 15%;
+        border-radius: 15px;
+        height: 30px;
+       }
+}

@@ -1,139 +1,86 @@
-body {
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   
-    margin: 0%;
-}
-@media screen and (min-width: 1024px) {
-   .decortop {
-    width: 17%
-   
-   
-   } 
-   .textintrokonsul {
-    top: 10%;
-    left: 35%;
-    position: absolute;
-    text-align: center;
-    font-size: 9vh;
-    color: #5D7F99;
-   }
-   .boxperubjad {
-    width: 50%;
-    margin-bottom: 3%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 130px;
-    border-radius: 15px;
-    background-color: #B8B8B8;
-   }
-   .name{
-    margin: 0%;
-    display: inline-block;
-    top: 33%;
-    width: 25%;
-    margin-left: 3%;
-   }
-   h3{
-   
-   }
-   .datatnggl {
-   margin: 0%;
-  display: inline-block;
-  margin-left: -27%;
-    position: relative;
-
-    top: 43%;
-    left: 1%;
-    width: 25%;
-    height: 40px;
-    
-   }
-   .docicon{
-    width: 4.2%;
-    margin-top: 2%;
-    margin-left: 3.5%;
-   }
-   .calicon{
-    width: 7%;
-    margin-left: 2%;
+  /* Style untuk body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style untuk header */
+  .decortop {
     display: block;
-   }
-   .editbtn{
-    top: 10%;
-    background-color: #5D7F99;
+    margin: 0 auto;
+    width: 200px; /* Sesuaikan lebar dengan gambar */
+  }
+  
+  .boxtext {
+    text-align: center;
+  }
+  
+  .textintrokonsul {
+    color: #333;
+  }
+  
+  /* Style untuk kontainer data */
+  #dataContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Style untuk box perubahan jadwal */
+  .boxperubjad {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: calc(100% - 40px);
+  }
+  
+  .docicon, .calicon {
+    width: 30px; /* Sesuaikan dengan ukuran ikon */
+    height: 30px; /* Sesuaikan dengan ukuran ikon */
+  }
+  
+  .name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .datatnggl {
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  .editbtn {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
     border: none;
-    top: -64%;
-    position: relative;
-    margin-left: 80%;
-    width: 15%;
-    border-radius: 15px;
-    height: 30px;
-   }
-   
-}
-
-@media screen and (max-width: 430px) {
-    .decortop {
-        width: 29%
-       } 
-       .textintrokonsul {
-        top: 12%;
-        left: 25%;
-        position: absolute;
-        text-align: center;
-        font-size: 4vh;
-        color: #5D7F99;
-       }
-       .boxperubjad {
-        width: 75%;
-        margin-top: 10%;
-        margin-bottom: 3%;
-        margin-left: auto;
-        margin-right: auto;
-        height: 100px;
-        border-radius: 15px;
-        background-color: #B8B8B8;
-       }
-       .name{
-        margin: 0%;
-        display: inline-block;
-        top: 33%;
-        width: 25%;
-        margin-left: 3%;
-       }
-       h3{
-       
-       }
-       .datatnggl {
-       margin: 0%;
-      display: inline-block;
-      margin-left: -27%;
-        position: relative;
-    
-        top: 43%;
-        left: 1%;
-        width: 25%;
-        height: 40px;
-        
-       }
-       .docicon{
-        width: 10.2%;
-        margin-top: 2%;
-        margin-left: 3.5%;
-       }
-       .calicon{
-        width: 20%;
-        margin-top: -5%;
-        display: block;
-       }
-       .editbtn{
-        top: 10%;
-        background-color: #5D7F99;
-        border: none;
-        top: -64%;
-        position: relative;
-        margin-left: 80%;
-        width: 15%;
-        border-radius: 15px;
-        height: 30px;
-       }
-}
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .editbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media query untuk responsif */
+  @media only screen and (min-width: 768px) {
+    #dataContainer {
+      justify-content: flex-start;
+    }
+  }
+  
+  
