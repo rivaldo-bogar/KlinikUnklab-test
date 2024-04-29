@@ -1,0 +1,151 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+@media screen and (min-width: 1024px) {
+    
+    .textintrodata {
+        position: absolute;
+        font-size: 8vh;
+        left: 40%;
+        top: 10%;
+        text-align: center;
+        color: #5D7F99;
+    }
+    .iconkal {
+        left: 0%;
+        width: 20%;
+        
+    }
+
+    .boxnamapasien {
+        background-color: #B8B8B8;
+        width: 50%;
+        left: 25%;
+        height: 50px;
+        border-radius: 15px;
+        position: absolute;
+    }
+    .boxtanggal {
+        background-color: #B8B8B8;
+        width: 20%;
+        top: 50%;
+        left: 25%;
+        height: 50px;
+        border-radius: 15px;
+        position: absolute;
+    }
+    .boxnmrtlp {
+        background-color: #B8B8B8;
+        width: 45%;
+        top: 62%;
+        left: 25%;
+        height: 100px;
+        border-radius: 15px;
+        position: absolute;
+    }
+   
+   
+    .backbtn{
+        background-image: url(/img/btnkembali.png);
+        width: 10%;
+        height: 50px;
+        position: absolute;
+        background-size: cover;
+        top: 85%;
+        left: 80%;
+        
+        background-repeat: no-repeat;
+        border: none;
+        background-color:white;
+    }
+    .iconpasien{
+        width: 5%;
+        right: 102%;
+        position: absolute;
+    }
+    .gendericon{
+        width: 20%;
+        right: 102%;
+        position: absolute;
+    }
+    .iconmedisku {
+        width: 10%;
+        right: 102%;
+        position: absolute;
+    }
+    
+}
+@media screen and (max-width: 430px) {
+    .textintrodata {
+        position: absolute;
+        font-size: 5vh;
+        left: 25%;
+        top: 20%;
+        text-align: center;
+        color: #5D7F99;
+    }
+    .iconkal {
+        left: 0%;
+        width: 35%;
+        
+    }
+
+    .boxnamapasien {
+        background-color: #B8B8B8;
+        width: 55%;
+        top: 40%;
+        left: 25%;
+        height: 35px;
+        border-radius: 15px;
+        position: absolute;
+    }
+    .boxtanggal {
+        background-color: #B8B8B8;
+        width: 40%;
+        top: 50%;
+        left: 25%;
+        height: 35px;
+        border-radius: 15px;
+        position: absolute;
+    }
+    .boxnmrtlp {
+        background-color: #B8B8B8;
+        width: 60%;
+        top: 62%;
+        left: 25%;
+        height: 75px;
+        border-radius: 15px;
+        position: absolute;
+    }
+   
+   
+    .backbtn{
+        background-image: url(/img/btnkembali.png);
+        width: 30%;
+        height: 42px;
+        position: absolute;
+        background-size: cover;
+        top: 85%;
+        left: 65%;
+        
+        background-repeat: no-repeat;
+        border: none;
+        background-color:white;
+    }
+    .iconpasien{
+        width: 10%;
+        right: 102%;
+        position: absolute;
+    }
+    .gendericon{
+        width: 40%;
+        right: 102%;
+        position: absolute;
+    }
+    .iconmedisku {
+        width: 18%;
+        right: 102%;
+        position: absolute;
+    }
+}

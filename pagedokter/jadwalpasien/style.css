@@ -1,0 +1,145 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+@media screen and (min-width: 1024px) {
+   .jad1 {
+    top: 45%;
+   
+    width: 80%;
+    left: 15%;
+    position: absolute;
+    height: 60px;
+   } 
+  .doktername {
+    
+    background-color: #B8B8B8;
+    width: 50%;
+    right: 43%;
+    position: absolute;
+    display: inline-block;
+    margin-top: 10px;
+  
+    border-radius: 15px;
+    height: 50px;
+  }
+   .jadbox{
+
+    border-radius: 20px;
+   }
+   .textintrojad{
+    text-align: center;
+    font-size: 9vh;
+    top: 12%;
+    position: absolute;
+    left: 35%;
+    color: #5D7F99;
+   }
+   .texttanggal {
+    left: 65%;
+   bottom: 75%;
+    display: inline-block;
+    position: relative;
+   }
+   .iconjaddok{
+    width: 20%;
+   }
+   .icondoc{
+    top: 20%;
+    
+    position: absolute;
+    width: 3.5%;
+   
+   }
+   .tanggal {
+    background-color: #B8B8B8;
+    width: 20%;
+    left: 65%;
+    border-radius: 20px;
+    height: 50px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 10px;
+   }
+   .btnok {
+    background-image: url(/img/btnok.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:10%;
+    height: 50px;
+    border: none;
+    top: 80%;
+    left: 74%;
+    position: absolute;
+   }
+}
+@media screen and (max-width: 430px) {
+    .jad1 {
+        top: 45%;
+       
+        width: 80%;
+        left: 10%;
+        position: absolute;
+        height: 60px;
+       } 
+       .iconjaddok{
+        width: 40%;
+       }
+      .doktername {
+        
+        background-color: #B8B8B8;
+        width: 50%;
+        right: 35%;
+        position: absolute;
+        display: inline-block;
+        margin-top: 5px;
+        border-radius: 10px;
+        height: 40px;
+      }
+       .jadbox{
+    
+        border-radius: 20px;
+       }
+       .textintrojad{
+        text-align: center;
+        font-size: 4.5vh;
+        top: 19%;
+        position: absolute;
+        left: 25%;
+        color: #5D7F99;
+       }
+       .texttanggal {
+        left: 61%;
+       bottom: 70%;
+       font-size: 1.5vh;
+        display: inline-block;
+        position: relative;
+       }
+       .icondoc{
+        width: 12.5%;
+       
+       }
+       .tanggal {
+        background-color: #B8B8B8;
+        width: 30%;
+        left: 70%;
+        border-radius: 10px;
+        height: 40px;
+        
+        position: absolute;
+        display: inline-block;
+        margin-top: 5px;
+       }
+       .btnok {
+        background-image: url(/img/btnok.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:27%;
+        height: 35px;
+        border: none;
+        top: 80%;
+        left: 65%;
+        position: absolute;
+        background-color: white;
+       }
+}
