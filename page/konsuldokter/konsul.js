@@ -27,5 +27,5 @@ const app = initializeApp(firebaseConfig);
       tanggal : document.getElementById("tanggal").value,
       NamaDokter : document.getElementById("namadokter").value
     })
-    alert("Login Success");
+    alert("Berhasil di daftarkan");
   })
